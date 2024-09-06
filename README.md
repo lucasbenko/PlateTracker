@@ -1,0 +1,1 @@
+Small web-app that allows the user to track which license plates they've seen for all 50 states in the USA. Created using HTML, CSS, PHP, JavaScript and Bootstrap.
