@@ -1,0 +1,90 @@
+.state-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.state-button.clicked {
+    background-color: green;
+    color: white;
+}
+
+.state-button-visited {
+    background-color: green;
+    color: white;
+}
+
+.state-button img {
+    width: 50px;
+    height: 50px;
+}
+
+.col-s {
+    padding: 12px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.state-button-massachusetts {
+    font-size: 15px;
+}
+
+.logo-img {
+    max-width: 25%;
+    max-height: 25%;
+    height: auto;
+    width: auto;
+    display: flex;
+}
+
+i {
+    color: #EFE6DD;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'LicensePlate';
+    src: url('res/fonts/plate.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nav-selector {
+    color: #BB4430;
+}
+
+.nav-selector:hover{
+    color: #BB4430;
+}
+
+.s-heading {
+    color: #EFE6DD;
+}
+
+.s-heading:hover {
+    color: #EFE6DD;
+    text-decoration: none;
+}
+
+.login-a {
+    color: #BB4430;
+}
+
+.login-a:hover {
+    color: #BB4430;
+}
+
+.s-heading-2 {
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+}
